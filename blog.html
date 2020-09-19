@@ -24,10 +24,13 @@
  	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,600,700" rel="stylesheet"> 
 
 	<!-- Custom & Default Styles -->
+
 	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/blog.css">
 
 	<!--[if lt IE 9]>
 		<script src="js/vendor/html5shiv.min.js"></script>
@@ -38,7 +41,7 @@
 <body>
 	
 	<div id="wrapper">
-		<header class="header site-header header-transparent" style="background-color: #2475a5;">
+		<header class="header site-header header-transparent bg-dark position-static">
 			<div class="container">
 				<nav class="navbar navbar-default yamm">
 				    <div class="container-fluid">
@@ -49,13 +52,13 @@
 				                <span class="icon-bar"></span>
 				                <span class="icon-bar"></span>
 				            </button>
-							<a class="navbar-brand" href="index.html"><img src="images/lightlogo.png" alt="Linda"></a>
+							<a class="navbar-brand" href="index.html"><img src="images/G-ANALITIC-logo.png" alt="G-ANALITIC"></a>
 				        </div>
 				        <div id="navbar" class="navbar-collapse collapse">
 				            <ul class="nav navbar-nav navbar-right">
-				                <li class=""><a href="index.html">Home</a></li>
+				                <li class="active"><a href="index.html">Accueil</a></li>
 				                <li class="dropdown yamm-fw hasmenu">
-				                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Features <span class="fa fa-angle-down"></span></a>
+				                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Statistique <span class="fa fa-angle-down"></span></a>
 						            <ul class="dropdown-menu">
 						                <li>
 						                    <div class="yamm-content">
@@ -104,28 +107,115 @@
 						                </li>
 						            </ul>
 				                </li>
-				                <li><a href="page-about.html">What is SEO?</a></li>
-				                <li><a href="case-studies.html">Case Studies</a></li>
-				                <li class="active"><a href="blog.html">Blog</a></li>
-				                <li><a href="page-contact.html">Contact</a></li>
-                                <li class="lastlink hidden-xs hidden-sm"><a href="page-seo-analysis.html"><i class="glyphicon glyphicon-search"></i> free seo analysis</a></li>
+				                <li><a href="page-about.html">Rapports</a></li>
+				                <li><a href="case-studies.html">Perspective</a></li>
+				                <li><a href="#">Services</a></li>
+								<li><a href="blog.html">Blog</a></li>
+                                <li class="lastlink hidden-xs hidden-sm"><a class="btn btn-primary" href="page-seo-analysis.html"><!----<i class="glyphicon glyphicon-search">----></i> Se connecter</a></li>
                             </ul>
 				        </div><!--/.nav-collapse -->
 				    </div><!--/.container-fluid -->
 				</nav><!-- end nav -->
 			</div><!-- end container -->
-		</header><!-- end header -->
+		</header>
+		<!-- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+			Launch demo modal
+		  </button> -->
+		<!-- modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				  <h4 class="modal-title" id="myModalLabel">Inscrivez vous</h4>
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-lg-8 col-lg-offset-3">
+							<div class="btn-group" data-toggle="buttons">
+								<label class="btn btn-primary rounded active">
+								  <input type="radio" name="options" id="option1" autocomplete="off" checked> Google
+								</label>
+								<label class="btn btn-primary rounded">
+								  <input type="radio" name="options" id="option2" autocomplete="off"> Facebook
+								</label>
+							</div>
+						</div>
+					</div>
 
-		<!--<section class="section transheader parallax" data-stellar-background-ratio="0.5" style="background-image:url('upload/bg_01.jpg');">
-			<div class="container">
-				<div class="row">	
-					<div class="col-md-10 col-md-offset-1 col-sm-12 text-center">
-						<h2>Blog & News</h2>
-						<p class="lead">We publish latest Google news, SEO tips and tricks for our dear customers.</p>
+					<p class="text-center mt-1">Choisissez un compte</p>
+
+					<div class="row">
+						<div class="flex-justify-content">
+							<!-- <div class="btn-group" data-toggle="buttons">
+								<label class="btn btn-primary border-none active">
+								  <input type="radio" name="options" id="option1" autocomplete="off" checked> Premium
+								</label>
+								<label class="btn btn-primary border-none">
+								  <input type="radio" name="options" id="option2" autocomplete="off"> Entreprise
+								</label>
+							</div> -->
+
+							<div class="bonus">
+								<label for="premium">
+									<input type="radio" name="payment" id="premium"> Premium
+								</label>
+								
+								<div class="bonus-content">
+									<p><i class="fa fa-check" aria-hidden="true"></i> Accès à plus à +1 million de statistiques</p>
+									<p><i class="fa fa-check" aria-hidden="true"></i> Téléchargement sous XLS, PDF, PNG​</p>
+									<p><i class="fa fa-check" aria-hidden="true"></i> Accès aux sources de référence​</p>
+								</div>
+							</div>
+
+							<div class="bonus">
+								<label for="entreprise">
+									<input type="radio" name="payment" id="entreprise"> Entreprise
+								</label>
+
+								<div class="bonus-content">
+									<p><i class="fa fa-check" aria-hidden="true"></i> Accès à toutes les fonctionnalites premium</p>
+									<p><i class="fa fa-check" aria-hidden="true"></i> Mise en contact avec un data analyst </p>
+									<p><i class="fa fa-check" aria-hidden="true"></i> Prévisions exclusives, tendances & études de marché détaillées​ </p>
+								</div>
+							</div>
+
+
+
+						</div>
+					</div>
+
+					<p class="text-center mt-1">Choisissez le moyen de paiement</p>
+
+					<div class="form-payment">
+						<div class="mobil-bank">
+							<label for="airtel">
+								<input type="checkbox" name="payment" id="airtel" /> Airtel
+							</label>
+							<label for="mobi">
+								<input type="checkbox" name="payment" id="mobi" /> Mobil Cash
+							</label>
+						</div>
+
+						<div class="bank-cart">
+							<div>
+								<label for="cart">Carte Bancaire</label>
+								<input type="checkbox" name="payment" id="cart" />
+							</div>
+							<input type="text" name="number_bank" placeholder="N. de la carte" />
+						</div>
 					</div>
 				</div>
+				<div class="modal-footer">
+					<!-- <p class="mess-total">Total: 15</p> -->
+				  	<!-- <button type="button" class="btn btn-default" data-dismiss="modal">Annuler</button> -->
+				  	<button type="button" class="btn btn-primary">Valider</button>
+				</div>
+			  </div>
 			</div>
-		</section> end section -->
+		  </div>
+		  
+
 
 		<section class="section">
 			<div class="container">
@@ -133,7 +223,7 @@
 					<div class="content col-md-8">
 						<div class="blog-box clearfix row">
 							<div class="media-box col-md-4">
-								<a href="blog-single.html" title=""><img src="upload/blog_01.jpg" alt="" class="img-responsive img-thumbnail"></a>
+								<a href="blog-single.html" title=""><img src="images/sante.png" alt="" class="img-responsive img-thumbnail"></a>
 							</div><!-- end media-box -->
 							<div class="blog-desc col-md-8">
 								<div class="blog-meta">
@@ -142,15 +232,20 @@
 										<li><a href="#"><i class="fa fa-comments-o"></i> 21 Comments</a></li>
 									</ul>
 								</div><!-- end meta -->
-								<h3><a href="blog-single.html" title="">WordPress » How to Make Professional SEO Links</a></h3>
-								<p>The plugin will automatically include the most commonly used words in the text as a label. This way you gain backlinks within the site. In addition, one of the best features is that the words in the article are automatically linked to the label page. In this case, the article..</p>
+								<h3><a href="blog-single.html" title="">Depenses totale en sante </a></h3>
+								<p>En 2017, les dépenses de santé pour le Gabon étaient de 414 millions de dollars américains. Bien que les dépenses de santé du Gabon aient considérablement fluctué ces dernières années, elles ont eu tendance à augmenter tout au long de la période 2003-2017, se terminant à 414 millions de dollars américains en 2017.</p>
 								<a class="readmore" href="#">Read more</a>
 							</div><!-- end blog-desc -->
 						</div><!-- end blogbox -->
 
 						<div class="blog-box clearfix row">
 							<div class="media-box col-md-4">
-								<a href="blog-single.html" title=""><img src="upload/blog_02.jpg" alt="" class="img-responsive img-thumbnail"></a>
+								<a title="">
+									<img src="images/Figure_1.png" alt="" class="img-responsive img-thumbnail">
+									<div class="lock">
+										<i class="fa fa-lock" aria-hidden="true" data-toggle="modal" data-target="#myModal"></i>
+									</div>
+								</a>
 							</div><!-- end media-box -->
 							<div class="blog-desc col-md-8">
 								<div class="blog-meta">
@@ -159,7 +254,7 @@
 										<li><a href="#"><i class="fa fa-comments-o"></i> 12 Comments</a></li>
 									</ul>
 								</div><!-- end meta -->
-								<h3><a href="blog-single.html" title="">What is rel= Tag and How to Use it for search engines</a></h3>
+								<h3><a href="blog-single.html" title="">Qui s'interesse le plus au bijoux ?</a></h3>
 								<p>The Rel Canonical tag allows Google bots to determine which link to base when the same content is accessible by search engines with two different link structures. In the case of e-commerce sites, products usually have IDs, so in this case there is no product..</p>
 								<a class="readmore" href="#">Read more</a>
 							</div><!-- end blog-desc -->
@@ -246,12 +341,12 @@
 
                     <div class="sidebar col-md-4 col-sm-4">
                     	<div class="widget clearfix">
-                    		<h4 class="widget-title">Subscribe</h4>
+                    		<h4 class="widget-title">Newsletter</h4>
                     		<div class="newsletter-widget">
-                    			<p>You can opt out of our newsletters at any time. See our privacy policy.</p>
+                    			<p>Vous pouvez vous abonnez aux actualites de la plateforme !!</p>
 		                        <form class="form-inline" role="search">
 		                            <div class="form-1">
-		                              	<input type="text" class="form-control" placeholder="Enter email here..">
+		                              	<input type="text" class="form-control" placeholder="Entrer votre Email ..">
 										<button type="submit" class="btn btn-primary"><i class="fa fa-envelope-o"></i></button>
 		                            </div>
 								</form>
@@ -266,14 +361,12 @@
                     	</div><!-- end widget -->
 
                     	<div class="widget clearfix">
-                    		<h4 class="widget-title">Blog Categories</h4>
+                    		<h4 class="widget-title">Etudes Populaires</h4>
                     		<div class="category-widget">
                     			<ul>
-                    				<li><a href="#">SEO Tips and Tricks</a></li>
-                    				<li><a href="#">e-Commerce SEO</a></li>
-                    				<li><a href="#">SEO Tools and Modules</a></li>
-                    				<li><a href="#">Google Updates for Algoritms</a></li>
-                    				<li><a href="#">SEO for CMS Systems</a></li>
+                    				<li><a href="#">Le Gabon et le monde de l'emploi</a></li>
+                    				<li><a href="#">Le Mobile Money au Gabon</a></li>
+                    				<li><a href="#">Top 10 de nos sondages</a></li>
                     			</ul>
                     		</div><!-- end category -->
                     	</div><!-- end widget -->
@@ -324,9 +417,9 @@
                 <div class="row">
                     <div class="col-md-4 col-sm-4">
                     	<div class="widget clearfix">
-                    		<h4 class="widget-title">Subscribe</h4>
+                    		<h4 class="widget-title">Newsletter</h4>
                     		<div class="newsletter-widget">
-                    			<p>You can opt out of our newsletters at any time. See our privacy policy.</p>
+                    			<p>Vous pouvez vous abonnez aux actualites de la plateforme !!</p>
 		                        <form class="form-inline" role="search">
 		                            <div class="form-1">
 		                              	<input type="text" class="form-control" placeholder="Enter email here..">
