@@ -14,6 +14,11 @@
     border-radius: 10px !important;
 }
 
+.flex-justify-content{
+    display: flex;
+    justify-content: space-around;
+}
+
 .mt-1{
     margin-top: .8em;
 }
@@ -66,4 +71,30 @@ label.btn-primary{
 
 .lock i:hover{
     color: #dddcdc;
+}
+
+.bonus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 40%;
+}
+
+.bonus .bonus-content p{
+    font-size: .8em;
+}
+
+/* Correctif */
+/* .btn.btn-primary:active{
+    border: none;
+    outline: none;
+} */
+
+.modal-dialog{
+    z-index: 999 !important;
+}
+
+.header{
+    z-index: 1;
 }
