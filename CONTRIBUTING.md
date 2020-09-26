@@ -1,4 +1,4 @@
-# Contribution au projet HUB MÉDIA - COVID-19
+# Contribution au projet G-ANALITIC - Data - 2020
 
 Merci pour l'intérêt que vous portez à l'évolution du projet. Lors de vos propositions évitez de traiter plusieurs problématiques. Ciblez un aspect précis (bug, amélioration, fonctionnalité) et traitez-le. Un long code aura du mal à être accepté.
 
