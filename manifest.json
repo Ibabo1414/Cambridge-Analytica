@@ -1,0 +1,20 @@
+{
+  "short_name": "G-ANALITIC",
+  "name": "G-ANALITIC",
+  "icons": [
+    {
+      "src": "images/favicon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "images/favicon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "index.html",
+  "background_color": "#0D0707",
+  "display": "standalone",
+  "theme_color": "#ffff"
+}
