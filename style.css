@@ -366,78 +366,7 @@ h3 {
     color: #3e1740;
   }
 
-/*==== circle-button 1 =====*/
-form{
-    padding-bottom: 2em;
-}
-#all-circle{
-    margin-left: 1em;
 
-}
-  .circle-button {
-    background-color: #3b5998;
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    display: flex;
-    top: 340px;
-    padding-left: 20px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 7px #555;
-    color: #fff;
-    font-size: 20px;
-    line-height: 50px;
-    text-align: center;
-    transition: 300ms ease;
-  }
-
-
-  .circle-button .eco {
- padding-left: 1.3em;
-
-  }
-  .cir-1{
-      margin-left: 9em;
-  }
-  .cir-2{
-    margin-left: 19em;
-}
-.cir-3{
-    margin-left: 28em;
-}
-.cir-4{
-    margin-left: 40em;
-}
-/*==== circle-button 2 =====*/
-#all-circle .circle-button-2 {
-    margin-top: 3.3em;
-     }
-
-.circle-button-2 {
-    background-color: #3b5998;
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    display: flex;
-    top: 340px;
-    padding-left: 20px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 7px #555;
-    color: #fff;
-    font-size: 20px;
-    line-height: 50px;
-    text-align: center;
-    transition: 300ms ease;
-  }
-
-  .circle-button-2 .eco {
- padding-left: 1.3em;
-
-  }
-
-  .tab-content{
-      margin-left: 7em;
-  }
 /***************************** TOPBAR ********************************/
 .topbar {
     border-bottom: 1px solid #eee;
