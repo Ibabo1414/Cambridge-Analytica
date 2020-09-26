@@ -5,4 +5,4 @@ G-ANALITIC est une plateforme permettant de suivre l'évolution des données sta
 # Site
 Le site est disponible à l'adresse suivante :
 
-https://ibabo1414.github.io/G-ANALITIC/
+https://g-analitic.netlify.app/
