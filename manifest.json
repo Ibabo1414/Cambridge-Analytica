@@ -1,20 +1,24 @@
 {
-  "short_name": "G-ANALITIC",
-  "name": "G-ANALITIC",
-  "icons": [
-    {
+	"name": "G-ANALITIC",
+	"short_name": "G-ANALITIC",
+	"description": "G-ANALITIC - Datas-2020, est une plateforme permettant de suivre l'évolution des données statistiques au Gabon mais aussi de pouvoir les exploiter selon le besoin.",
+	"start_url": "https://g-analitic.netlify.app/",
+	"display": "standalone",
+	"orientation": "portrait",
+	"lang": "French",
+	"background_color": "#ffffff",
+	"theme_color": "#030946",
+	"scope": "/",
+	"icons": [
+		{
       "src": "images/favicon.png",
       "type": "image/png",
       "sizes": "192x192"
-    },
-    {
+		},
+		{
       "src": "images/favicon.png",
       "type": "image/png",
       "sizes": "192x192"
-    }
-  ],
-  "start_url": "index.html",
-  "background_color": "#ffff",
-  "display": "standalone",
-  "theme_color": "#ffff"
+		}
+	]
 }
