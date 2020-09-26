@@ -2,7 +2,7 @@
 
 Merci pour l'intérêt que vous portez à l'évolution du projet. Lors de vos propositions évitez de traiter plusieurs problématiques. Ciblez un aspect précis (bug, amélioration, fonctionnalité) et traitez-le. Un long code aura du mal à être accepté.
 
-Faites toutes vos propositions sur la branche [**_develop_**](https://github.com/mendoc/hub-media-covid-19/tree/develop). Une seule proposition par pull request. Aucun pull request sur la branche **_master_** ne sera accepté.
+Faites toutes vos propositions sur la branche [**_develop_**](https://github.com/Ibabo1414/G-ANALITIC/tree/develop). Une seule proposition par pull request. Aucun pull request sur la branche **_master_** ne sera accepté.
 
 Pour contribuer au projet prière de suivre les directives suivantes.
 
